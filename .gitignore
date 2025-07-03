@@ -1,0 +1,80 @@
+###############################
+# ENTORNOS VIRTUALES
+###############################
+# Conda
+.conda/
+*.conda
+env/
+ENV/
+venv/
+
+###############################
+# ARCHIVOS DE PYTHON
+###############################
+*.py[cod]
+__pycache__/
+*$py.class
+
+###############################
+# CONFIGURACIÓN DE ENTORNO
+###############################
+.env
+*.env
+*.log
+*.pot
+*.pyc
+*.pyo
+
+###############################
+# BASE DE DATOS
+###############################
+db.sqlite3
+*.sqlite3
+
+###############################
+# MIGRACIONES
+###############################
+**/migrations/*.py
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+###############################
+# ARCHIVOS ESTÁTICOS Y MEDIA
+###############################
+/static/
+/staticfiles/
+/media/
+
+###############################
+# ARCHIVOS DE TRADUCCIÓN
+###############################
+*.mo
+
+###############################
+# ARCHIVOS DE REQUISITOS
+###############################
+requirements.txt
+Pipfile
+Pipfile.lock
+poetry.lock
+
+###############################
+# ENTORNOS Y DEPENDENCIAS
+###############################
+environment.yml
+*.yml
+*.yaml
+
+###############################
+# CONFIGURACIÓN DE IDEs
+###############################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+###############################
+# ARCHIVOS DEL SISTEMA OPERATIVO
+###############################
+.DS_Store
+Thumbs.db

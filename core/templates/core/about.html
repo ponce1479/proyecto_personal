@@ -1,0 +1,35 @@
+{% extends "core/base.html" %}
+
+
+{% block title%}About me{%endblock%}
+
+{% block background %}https://res.cloudinary.com/dbnxtlmrh/image/upload/v1748318322/about-bg_sigxgh.jpg{% endblock %}
+
+{% block headers %}
+<h1 class="display-1 fw-bold text-center">Acerca de</h1>
+<span class="subheading fs-2 fw-semibold text-white">Biografia</span>
+{% endblock %}
+
+
+
+
+{% block content %}
+<div class="row ">
+    <div class="col-lg-3 col-md-4 offset-lg-1 mt-5">
+        <img class="img-fluid avatar rounded-circle"
+            src="https://res.cloudinary.com/dbnxtlmrh/image/upload/v1748318317/avatar_t3fwla.jpg" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8 mt-5">
+        <h2 class="section-heading">Jordy Martinez</h2>
+        <p>Peruano Nacido en... en Cerro de Pasco el 13 de agosto de 2007. Es estudiante de informatica y es considerado
+            el Mártir de la Informatica Peruana. Durante sus estudios, se inoculó voluntariamente con la tecnologia
+            peruana para investigar el casamiento de palomas para alimentacion revolucionaria de Peru. </p>
+        <p>Su trabajo influyó en la creación de nuevos enfoques de cazamiento de palomas y en el desarrollo de
+            herramientas para capturar palomas que facilitan la lógica de programación a futuras generaciones con
+            hambre. Hoy, su nombre resuena en hackatones, laboratorios y comunidades tecnológicas, donde su legado
+            inspira a quienes buscan transformar el mundo digital para capturar Palomas.
+        </p>
+    </div>
+</div>
+
+{%endblock %}
